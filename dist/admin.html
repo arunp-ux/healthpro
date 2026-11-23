@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f8f7ee">
+  <title>Review moderation · HealthyProWithKiya</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+  <script src="firebase-config.js?v=1"></script>
+  <script type="module" src="admin.js?v=1"></script>
+</head>
+<body>
+  <main class="admin-shell">
+    <header class="admin-header">
+      <a class="brand" href="index.html"><img src="assets/brand.svg" alt="">HealthyPro<span>WithKiya</span></a>
+      <a class="under" href="index.html#stories">Back to website</a>
+    </header>
+    <section class="admin-panel">
+      <p class="kicker">Private area</p>
+      <h1>Review moderation</h1>
+      <p id="admin-status" role="status" aria-live="polite"></p>
+      <form id="admin-login" class="admin-form">
+        <label>Email<input name="email" type="email" autocomplete="username" required></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+        <button class="solid" type="submit">Sign in</button>
+      </form>
+      <div id="admin-content" hidden>
+        <button id="admin-signout" class="admin-secondary" type="button">Sign out</button>
+        <section>
+          <h2>Pending reviews</h2>
+          <div id="admin-review-error" class="admin-error" role="alert" hidden></div>
+          <div id="pending-reviews" class="admin-list"></div>
+        </section>
+        <section>
+          <h2>Achievements</h2>
+          <form id="achievement-form" class="admin-form achievement-editor">
+            <input name="id" type="hidden">
+            <label>Label<input name="label" maxlength="80" required></label>
+            <label>Value<input name="value" type="number" min="0.1" step="any" required></label>
+            <label>Icon (optional)<input name="icon" maxlength="8"></label>
+            <label>Link (optional)<input name="link" type="url" maxlength="500" placeholder="https://..."></label>
+            <div class="admin-actions">
+              <button class="solid" type="submit">Save achievement</button>
+              <button id="achievement-cancel" class="admin-secondary" type="button" hidden>Cancel edit</button>
+            </div>
+          </form>
+          <div id="admin-achievement-error" class="admin-error" role="alert" hidden></div>
+          <div id="admin-achievements" class="admin-list"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="title">
+<title id="title">Morning stillness — a woman practising yoga among the hills</title>
+<defs>
+  <linearGradient id="sky" x2=".3" y2="1"><stop stop-color="#edc9a5"/><stop offset="1" stop-color="#fff0c0"/></linearGradient>
+  <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#ffebb4"/><stop offset="1" stop-color="#ffda91"/></linearGradient>
+  <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".67" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  <g id="sprig" fill="currentColor">
+    <path d="M0 0Q10-75 3-177" stroke="currentColor" stroke-width="3" fill="none"/>
+    <path d="M3-150Q-23-175-13-207Q8-192 3-150M5-128Q22-156 44-158Q39-132 5-128M6-107Q-27-126-30-154Q-4-147 6-107M5-82Q24-115 52-112Q43-85 5-82M5-62Q-30-75-38-107Q-7-99 5-62M4-40Q33-70 57-64Q43-40 4-40M2-22Q-32-26-46-54Q-16-53 2-22"/>
+  </g>
+  <g id="lance"><path d="M0 0Q-38-61-9-133Q22-112 0 0Z" fill="currentColor"/><path d="M0 0Q-13-67-9-122" fill="none" stroke="#f5e2ad" opacity=".29" stroke-width="1.2"/></g>
+  <g id="distantTree" fill="currentColor"><path d="m0 0 3-42-12 16 11-34 3-23 4 24 13 31-12-12 4 40Z"/></g>
+</defs>
+<path fill="url(#sky)" d="M0 0h800v620H0z"/>
+<circle cx="420" cy="205" r="140" fill="url(#sun)"/>
+<g fill="none" stroke="#fff4cc" opacity=".6"><circle cx="420" cy="205" r="150"/><circle cx="420" cy="205" r="155"/></g>
+<g stroke="#65573f" stroke-width="2.4" fill="none" stroke-linecap="round"><path d="M526 107q8-3 14 3q1-9 11-11M577 130q6-3 12 2q3-6 9-8M239 165q7-4 14 2q3-7 10-8"/></g>
+<path d="M0 277q66-29 117-16c62 15 96-22 151-29 72-10 105 21 169 12 73-13 106-60 174-50 68 12 127 8 189-30v167H0" fill="#c9c29b"/>
+<path d="M0 292c63-44 124-44 205-17s132 34 197 26 102-47 165-55c91-11 123 40 233 3v146H0" fill="#9ba97d"/>
+<path d="M0 303c85-40 161-13 220 22s141 44 197 24c77-27 124-61 187-53 97 13 131-11 196-44v154H0" fill="#738b69"/>
+<path d="M0 332c86-19 142-14 193 8s118 53 182 48c128-12 163-93 275-85 60 5 91 20 150 8v142H0" fill="#c0c799"/>
+<path d="M0 384c95-39 172-43 245-20s153 37 224 15c133-42 185-26 331-45v171H0" fill="#e3d5a1"/>
+<path d="M130 370q120-9 183 9t163 5q-66 18-155 13t-191-27" fill="#f7e3b3"/>
+<path d="M0 396c90-42 163-26 233 3 76 32 134 30 246 0 105-28 190-51 321-19v240H0" fill="#799367"/>
+<g color="#536e53" opacity=".85"><use href="#distantTree" transform="translate(681 371) scale(.52)"/><use href="#distantTree" transform="translate(667 371) scale(.35)"/><use href="#distantTree" transform="translate(695 365) scale(.46)"/><use href="#distantTree" transform="translate(72 386) scale(.65)"/><use href="#distantTree" transform="translate(89 385) scale(.42)"/></g>
+<path d="M0 425c107-45 180-36 269-5 96 34 195 11 273-12 101-31 170-18 258 19v193H0Z" fill="#486d53"/>
+<path d="M0 507c92-71 174-61 261-57 96 6 172-27 274-25 119 3 181 38 265 81v114H0" fill="#9eab76"/>
+<path d="M149 484q180-27 280-29t228 33q-144-15-266 0t-242-4" fill="#869968"/>
+<!-- Yoga mat and the figure's cast shadow -->
+<path d="m201 475 321-16 76 25-314 23z" fill="#b97858"/>
+<path d="m201 475 321-16 76 25-313 19z" fill="#e5b18a"/>
+<path d="m230 478 275-13m-244 29 290-18" fill="none" stroke="#ba8061" opacity=".7"/>
+<ellipse cx="401" cy="472" rx="109" ry="11" fill="#98684e" opacity=".55"/>
+<!-- Seated figure, seen from behind in a gentle side stretch -->
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M406 306q-11 31-33 46-13 10-22 16-19 15-48 26l-14 4q-7 0-11 4-5 6 4 6l16-1q9 3 20-5c22-7 41-16 57-24 27-14 47-33 57-59z" fill="#a96347"/>
+<path d="M411 306q-13 35-38 52-18 17-61 39" fill="none" stroke="#d99164" stroke-width="4"/>
+<path d="M396 386q-20 7-47 18c-30 10-67 27-66 46 1 21 36 27 67 27l65-14 71 7c28 2 51-8 49-25-2-18-34-31-61-38l-37-14z" fill="#a54f32"/>
+<path d="M290 445q-3 16 26 18c41 4 61-21 99-26l65-9q24-2 45 15-26-9-72 6l-68 22c-48 15-92 11-101-7-4-7-3-14 6-19z" fill="#813f2b"/>
+<path d="M372 459q49 3 81 8c14 1 19 3 28 6-13 7-35 5-53 4l-76-4z" fill="#d18c66"/>
+<path d="M484 429q-39 5-76 19t-66 18" fill="none" stroke="#cd7b4e" stroke-width="2"/>
+<path d="M445 314q13-18 25-36 17-22 31-59c3-7 2-14-2-22-9-18-29-36-39-44l-21-20c-5-4-8-3-6 1l13 15-18-12q-9-6-7 0l23 19c17 16 32 33 39 50 1 17-17 43-32 57l-21 22z" fill="#c8835b"/>
+<path d="M480 222q-9 25-31 48" fill="none" stroke="#995839" stroke-width="3"/>
+<path d="M402 279q4 15-4 24l-15 9q12 40 1 66l-9 22q31 18 71 3-11-24-8-45l11-43-25-19 2-20z" fill="#bd7653"/>
+<path d="M395 298q-6 4-12 5l-10 14q5 27 12 40 4 13-6 28 32 17 62 3-4-14 1-42l11-33-10-8-10-7q-6 32-19 40-13-13-19-40z" fill="#253e37"/>
+<path d="M379 384q31 17 62 3l1 7q-35 12-65-3z" fill="#4a6050"/>
+<path d="M385 311q9 26 19 34m32-40q-5 25-17 38" fill="none" stroke="#80907a" stroke-width="2"/>
+<path d="M392 249q2-22 24-22 22 1 22 21 1 16-6 27l-1 10q-13 9-20-2l-11-11z" fill="#c78057"/>
+<path d="M390 253c-5-18 1-34 19-38 15-5 29 3 32 15 2 8 1 15-1 20-3 0-5 1-7 5l-3 8-2 10q-17 12-28-2-6-7-10-18z" fill="#29332c"/>
+<path d="M397 258c-13 0-18 7-16 19 1 10 11 15 20 12 13-3 16-18 10-25z" fill="#253028"/>
+<path d="M396 269q-12 4-8 11m10-17q-12-1-15 10m14-30q6-15 19-17m-15 25q12-16 25-19" fill="none" stroke="#565849" stroke-width="1.4"/>
+<circle cx="431" cy="270" r="3" fill="#ecbe70"/>
+</g>
+<!-- Hand-cut foliage frames the valley -->
+<path d="M0 469q65-7 152 44c94 56 151 45 238 36 139-14 282-31 410 18v53H0" fill="#365940"/>
+<g color="#476a47"><use href="#sprig" transform="translate(101 512) rotate(-31) scale(1.13)"/><use href="#sprig" transform="translate(690 518) rotate(30) scale(1.25)"/></g>
+<g color="#273f33"><use href="#sprig" transform="translate(41 514) rotate(8) scale(1.5)"/><use href="#sprig" transform="translate(764 509) rotate(-13) scale(1.48)"/><use href="#lance" transform="translate(65 533) rotate(-39) scale(1.3)"/><use href="#lance" transform="translate(72 553) rotate(32) scale(1.2)"/><use href="#lance" transform="translate(749 537) rotate(49) scale(1.38)"/></g>
+<path d="M0 519q63-23 129 10c68 41 114 43 178 53-121-6-211-9-307 15z" fill="#223e33"/>
+<g color="#839365"><use href="#sprig" transform="translate(176 580) rotate(-43) scale(.67)"/><use href="#sprig" transform="translate(622 572) rotate(48) scale(.7)"/></g>
+<g fill="#e8b487"><circle cx="145" cy="506" r="3"/><circle cx="151" cy="497" r="3"/><circle cx="657" cy="496" r="3"/><circle cx="663" cy="503" r="4"/></g>
+<path d="M0 587q180-46 295-10c140 38 229 7 330-14 78-16 123-13 175 2v55H0Z" fill="#254537"/>
+<path d="M0 0h800v620H0z" filter="url(#paper)" opacity=".10" style="mix-blend-mode:multiply"/>
+</svg>

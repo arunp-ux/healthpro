@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img">
+<title>Ochre and jade exercise mat in a sunlit studio</title>
+<rect width="600" height="360" fill="#ddc5ad"/><circle cx="459" cy="103" r="73" fill="#f2d8b1"/>
+<path d="M0 243 600 202v158H0z" fill="#bf9f85"/><g fill="#f0d9b5" opacity=".8"><path d="m0 326 170-101 33-2L0 349zm115 34 236-150 82-5-243 155zm226 0 204-155 42-3-211 158z"/></g>
+<path d="m94 246 236-63 195 51-230 68z" fill="#7e836a"/><path d="m101 242 231-64 191 52-230 66z" fill="#6c8973"/><path d="m112 242 221-58 169 45-214 59z" stroke="#c1c1a0" fill="none" stroke-width="2"/>
+<path d="m118 203 205-60c23-7 45 7 47 33l-202 63z" fill="#9e6b53"/><path d="m121 198 203-58c18-4 38 8 43 24l-203 63z" fill="#dba077"/><path d="m132 198 202-56m-189 65 204-59m-198 70 202-58" fill="none" stroke="#bd825e" stroke-width="2"/>
+<ellipse cx="142" cy="216" rx="28" ry="33" transform="rotate(-31 142 216)" fill="#b27a59"/>
+<path d="M152 238c-21 6-42-27-28-41 13-14 39 10 34 26-4 13-22 5-25-8-2-10 8-11 11-4" fill="none" stroke="#794f3d" stroke-width="3"/>
+<path d="m346 233 48-15 44 11-49 15z" fill="#d9af81"/><path d="m346 233 43 11v26l-43-11z" fill="#ad815e"/><path d="m389 244 49-15v25l-49 16z" fill="#c5966c"/>
+<g fill="#597156"><path d="M56 193Q35 117 10 81q25 9 44 61-18-81 5-123 7 28-2 108 17-73 47-90-2 31-40 94 36-38 63-39-16 26-57 53l-9 50z"/></g><path d="m31 159 56-3-8 52q-17 12-37 0z" fill="#a9654d"/>
+<filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".65" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+<rect width="600" height="360" filter="url(#paper)" opacity=".1" style="mix-blend-mode:multiply"/>
+</svg>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f8f7ee"><meta name="description" content="Build your daily rhythm with HealthyProWithKiya. Explore meals, movement and hydration in one personal wellness journal."><title>HealthyProWithKiya · Everyday wellness</title><link rel="icon" href="assets/brand.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="studio.css?v=3"><link rel="stylesheet" href="stories.css?v=2"><script src="firebase-config.js?v=1"></script><script defer src="app.js?v=2"></script><script defer src="studio.js?v=5"></script><script type="module" src="milestones.js?v=1"></script></head>
+<body><a class="skip" href="#main">Skip to content</a><header><a class="brand" href="#main"><img src="assets/brand.svg" alt="">HealthyPro<span>WithKiya</span></a><nav aria-label="Main navigation"><a href="#approach">About</a><a href="#rituals">Services</a><a href="#stories">Client stories</a><a href="#plans">Membership</a></nav><a class="solid" href="#enquiry">Enquire now</a></header>
+<main id="main"><section class="hero"><div class="hero-copy"><p class="kicker"><span class="rule"></span> Everyday wellness studio</p><h1>Wellness for<br><em>real life.</em></h1><p class="intro"><strong>Small Changes, Big Results</strong><br>Welcome to HealthyProWithKiya. Explore meal planning, guided movement and everyday habits that fit around your life.</p><div class="actions"><a class="solid" href="#enquiry">Talk to Kiya</a><a class="under" href="#rituals">Explore services</a></div></div><figure class="hero-art"><img src="assets/studio.webp" alt="A seated stretch in a sunlit studio filled with plants"></figure></section>
+<div class="ribbon"><span>✳ <b>Eat well</b></span><i></i><span>☼ <b>Move well</b></span><i></i><span>❧ <b>Live well</b></span></div>
+<section id="approach" class="studio-intro"><div><p class="kicker">About HealthyProWithKiya</p><h2>A routine that<br><em>fits your day.</em></h2></div><div><p>A late breakfast. A desk-bound afternoon. A glass of water you meant to drink. These are the everyday moments HealthyProWithKiya is built around.</p><p>Explore a meal idea, take a movement break, or use your personal journal to track a habit. For individual support, tell Kiya what you would like to work on.</p><button class="under" data-open="profile">Start my personal journal</button></div></section><section id="rituals" class="section"><div class="section-head"><div><p class="kicker">Our services</p><h2>Food, movement <em>&amp; hydration.</em></h2></div><p>Three simple ways to check in with yourself today.</p></div><div class="cards">
+<article><button class="art meal" data-open="meal" aria-label="Open meal planner"><img src="assets/lunch.webp" alt="Rice, dal and vegetables served on a banana leaf"></button><div class="cardcopy"><small>Nourishment</small><h3>Meal planner</h3><p>Find something good for your next meal.</p><button class="under" data-open="meal">Explore meals</button></div></article>
+<article><button class="art move" data-open="move" aria-label="Open movement plan"><img src="assets/movement.svg" alt="Illustration for a movement break"></button><div class="cardcopy"><small>Movement</small><h3>Movement break</h3><p>Make room for a few minutes of movement.</p><button class="under" data-open="move">View routine</button></div></article>
+<article><button class="art water" data-open="water" aria-label="Open water tracker"><img src="assets/drink.webp" alt="Lemon and mint water being poured into a glass"></button><div class="cardcopy"><small>Hydration</small><h3>Water tracker</h3><p>Keep a simple record, one glass at a time.</p><button class="under" data-open="water">Log water</button></div></article></div></section>
+<section id="stories" class="story-section" aria-labelledby="stories-title">
+  <div class="story-shot" data-reveal><img loading="lazy" src="assets/journal.webp" alt="An open journal, pencil and tea in the afternoon light"></div>
+  <div class="story-copy" data-reveal>
+    <p class="kicker">From the studio</p><h2 id="stories-title">Milestones <em>&amp; voices.</em></h2>
+    <section class="achievement-block" aria-labelledby="achievements-title">
+      <h3 id="achievements-title">Our achievements</h3>
+      <div id="achievement-loading" class="stat-skeletons" aria-label="Loading achievements" aria-busy="true"><span></span><span></span></div>
+      <div id="achievement-error" class="story-error" role="alert" hidden></div>
+      <div id="achievement-stats" class="achievement-grid"></div>
+      <p id="achievements-empty" class="story-empty" hidden>We're just getting started — milestones will appear here as we reach them.</p>
+    </section>
+    <section class="reviews-block" aria-labelledby="reviews-title">
+      <h3 id="reviews-title">Client reviews</h3>
+      <div id="review-loading" class="review-skeletons" aria-label="Loading client reviews" aria-busy="true"><span></span><span></span></div>
+      <div id="review-error" class="story-error" role="alert" hidden></div>
+      <div id="review-content" hidden>
+        <div id="review-summary" class="review-summary" role="group" aria-label="Approved review summary"></div>
+        <div id="review-distribution" class="review-distribution" aria-label="Star rating distribution"></div>
+        <p id="reviews-empty" class="story-empty" hidden>Be one of our first clients to share your experience.</p>
+        <a id="review-empty-button" class="share-review" href="#review-form" hidden>Share your experience</a>
+        <div id="reviews-list" class="review-grid"></div>
+      </div>
+      <form id="review-form" class="review-form">
+        <h4>Share your experience</h4>
+        <p>Your review will be visible after it has been approved.</p>
+        <label>Name or initials<input name="name" maxlength="60" autocomplete="name" required></label>
+        <label>Service
+          <select name="service" required>
+            <option value="">Choose a service</option>
+            <option>Meal planning</option>
+            <option>Movement coaching</option>
+            <option>Everyday wellness</option>
+          </select>
+        </label>
+        <fieldset class="rating-fieldset">
+          <legend>Your rating</legend>
+          <div class="rating-options" role="radiogroup" aria-label="Star rating">
+            <label class="rating-choice"><input type="radio" name="rating" value="1" required><span class="star" aria-hidden="true">★</span><span class="visually-hidden">1 star</span></label>
+            <label class="rating-choice"><input type="radio" name="rating" value="2"><span class="star" aria-hidden="true">★</span><span class="visually-hidden">2 stars</span></label>
+            <label class="rating-choice"><input type="radio" name="rating" value="3"><span class="star" aria-hidden="true">★</span><span class="visually-hidden">3 stars</span></label>
+            <label class="rating-choice"><input type="radio" name="rating" value="4"><span class="star" aria-hidden="true">★</span><span class="visually-hidden">4 stars</span></label>
+            <label class="rating-choice"><input type="radio" name="rating" value="5"><span class="star" aria-hidden="true">★</span><span class="visually-hidden">5 stars</span></label>
+          </div>
+        </fieldset>
+        <label>Written review (optional)<textarea name="text" maxlength="300" rows="4" placeholder="Share a few words (up to 300 characters)."></textarea></label>
+        <label class="honeypot" aria-hidden="true">Leave this field empty<input name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="solid" type="submit">Submit review</button>
+        <p id="review-form-status" class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </div>
+</section>
+<section id="plans" class="section"><p class="kicker">Membership</p><h2>Find your <em>plan.</em></h2><p>Explore memberships with meal planning, workouts and coach support.</p><div class="plans" id="pricing"></div></section><section id="enquiry" class="contact"><div><p class="kicker">Studio enquiries</p><h2>Let’s talk<br><em>about you.</em></h2><p>Curious about a plan or unsure where to begin? Share a few details and continue the conversation with Kiya on WhatsApp.</p><div class="contact-details"><p><strong>Address</strong><br><span>Main Road, Bondai Village<br>Narayankuppam Post<br>Tiruvannamalai District<br>Tamil Nadu, 606708</span></p><p><strong>Email</strong><br><a href="mailto:arunperumal908@gmail.com">arunperumal908@gmail.com</a></p><p><strong>WhatsApp</strong><br><a href="https://wa.me/918682859327" rel="noopener">+91 86828 59327</a></p></div></div><form id="enquiry-form"><div class="contact-row"><label>Your name<input name="name" maxlength="80" autocomplete="given-name" required></label><label>Contact number<input type="tel" name="phone" autocomplete="tel" maxlength="25" required placeholder="+91"></label></div><label>What would you like help with?<select required name="interest"><option value="">Choose a service</option><option>Meal planning</option><option>Movement coaching</option><option>Everyday wellness</option><option>Membership</option></select></label><label>Your question (optional)<textarea name="message" rows="3" maxlength="500" placeholder="For example, which membership includes workout planning?"></textarea></label><button class="solid" type="submit">Continue to WhatsApp</button><p class="note">Review the prepared message in WhatsApp, then tap Send.</p><p role="status" aria-live="polite" id="enquiry-status"></p></form></section></main><footer><a class="brand" href="#main"><img src="assets/brand.svg" alt="">HealthyPro<span>WithKiya</span></a><div class="footer-contact"><a href="mailto:arunperumal908@gmail.com">arunperumal908@gmail.com</a><a href="https://wa.me/918682859327" rel="noopener">+91 86828 59327</a></div><button class="under" data-open="journal">My journal</button><span>Eat well · Move well · Live well</span></footer>
+<dialog id="panel" aria-labelledby="panel-title"><div class="panel-head"><p class="kicker">HealthyProWithKiya</p><button id="close" aria-label="Close dialog">×</button></div><div id="view"></div></dialog></body></html>
