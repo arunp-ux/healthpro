@@ -37,7 +37,7 @@ function render(page) {
   const day = today();
   let html = "";
   if (page === "profile") {
-    html = heading("Build your routine")+'<form id="profile"><label class="field">First name<input name="name" maxlength="45" autocomplete="given-name" required></label><label class="field">My focus<select name="goal">'+goals.map(g=>'<option>'+g+'</option>').join("")+'</select></label><p class="note">Your journal stays in this browser on this device.</p><button class="solid">Save my routine</button></form>';
+    html = heading("Build your routine")+'<form id="profile"><label class="field">First name<input name="name" maxlength="45" autocomplete="given-name" placeholder="Enter your first name" required></label><label class="field">My focus<select name="goal">'+goals.map(g=>'<option>'+g+'</option>').join("")+'</select></label><p class="note">Your journal stays in this browser on this device.</p><button class="solid">Save my routine</button></form>';
   } else if (page === "meal") {
     const [name,ingredients] = meals[category];
     const done = day.meals.includes(category);

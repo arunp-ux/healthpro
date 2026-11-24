@@ -22,8 +22,8 @@
       <h1>Review moderation</h1>
       <p id="admin-status" role="status" aria-live="polite"></p>
       <form id="admin-login" class="admin-form">
-        <label>Email<input name="email" type="email" autocomplete="username" required></label>
-        <label>Password<input name="password" type="password" autocomplete="current-password" required></label>
+        <label>Email<input name="email" type="email" autocomplete="username" placeholder="admin@example.com" required></label>
+        <label>Password<input name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required></label>
         <button class="solid" type="submit">Sign in</button>
       </form>
       <div id="admin-content" hidden>
@@ -37,9 +37,9 @@
           <h2>Achievements</h2>
           <form id="achievement-form" class="admin-form achievement-editor">
             <input name="id" type="hidden">
-            <label>Label<input name="label" maxlength="80" required></label>
-            <label>Value<input name="value" type="number" min="0.1" step="any" required></label>
-            <label>Icon (optional)<input name="icon" maxlength="8"></label>
+            <label>Label<input name="label" maxlength="80" placeholder="Achievement label" required></label>
+            <label>Value<input name="value" type="number" min="0.1" step="any" placeholder="Enter a value" required></label>
+            <label>Icon (optional)<input name="icon" maxlength="8" placeholder="e.g. ★"></label>
             <label>Link (optional)<input name="link" type="url" maxlength="500" placeholder="https://..."></label>
             <div class="admin-actions">
               <button class="solid" type="submit">Save achievement</button>
